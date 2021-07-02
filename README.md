@@ -108,7 +108,7 @@ There are three ways to use DPWidgetSum in your project:
 #### Podfile
 ```
 platform :ios, '7.0'
-pod 'DPWidgetSum', '~> 1.0.5'
+pod 'DPWidgetSum_ZCW', '~> 1.0.0'
 ```
 
 If you are using Swift, be sure to add `use_frameworks!` and set your target to iOS 8+:
