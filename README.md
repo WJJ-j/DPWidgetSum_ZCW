@@ -1,5 +1,5 @@
 <p align="center" >
-<img src="header.png" title="DPWidgetSum logo" float=left>
+<img src="header.png" title="DPWidgetSum_ZCW logo" float=left>
 </p>
 
 ## Features
@@ -17,15 +17,15 @@
 - Read this Readme doc
 - Read the [How to use section](https://github.com/WJJ-j/DPWidgetSum_ZCW#how-to-use)
 - Read the [documentation @ CocoaDocs](https://cocoapods.org/pods/DPWidgetSum_ZCW)
-- Try the example by downloading the project from Github or even easier using CocoaPods try `pod try DPWidgetSum`
+- Try the example by downloading the project from Github or even easier using CocoaPods try `pod try DPWidgetSum_ZCW`
 - Get to the [installation steps](https://github.com/rs/DPWidgetSum_ZCW#installation)
 
 ## Who Uses It
-- Find out [who uses DPWidgetSum](https://github.com/WJJ-j/DPWidgetSum_ZCW/wiki/Who-Uses-DPWidgetSum_ZCW) and add your app to the list.
+- Find out [who uses DPWidgetSum_ZCW](https://github.com/WJJ-j/DPWidgetSum_ZCW/wiki/Who-Uses-DPWidgetSum_ZCW) and add your app to the list.
 
 ## Communication
-- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/DPWidgetSum_ZCW). (Tag 'DPWidgetSum')
-- If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/DPWidgetSum).
+- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/DPWidgetSum_ZCW). (Tag 'DPWidgetSum_ZCW')
+- If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/DPWidgetSum_ZCW).
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
 - If you **want to contribute**, submit a pull request.
