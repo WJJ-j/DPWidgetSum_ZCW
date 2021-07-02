@@ -1,0 +1,24 @@
+PODS:
+  - MBProgressHUD (1.0.0)
+  - ReactiveObjC (3.1.1)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - ReactiveObjC (~> 3.1.1)
+  - TTTAttributedLabel (~> 2.0.0)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - ReactiveObjC
+    - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: d038d35be5facaf9216d68d6814498f059a87465
+
+COCOAPODS: 1.10.1

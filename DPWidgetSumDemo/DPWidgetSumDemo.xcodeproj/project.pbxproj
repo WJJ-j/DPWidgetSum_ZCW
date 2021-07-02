@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FFAC36B97138624FBA00E84 /* Pods_DPWidgetSumDemo_DPWidgetSumDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617C0ED7FDC67D52C94362D7 /* Pods_DPWidgetSumDemo_DPWidgetSumDemoUITests.framework */; };
+		3635B5CE4DE5A7EC28FAAD05 /* Pods_DPWidgetSumDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C322CC253AF7D4D448122DDB /* Pods_DPWidgetSumDemo.framework */; };
+		D716F61720E6E9C773D72D7F /* Pods_DPWidgetSumDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE50D6B728976BC1F130E54A /* Pods_DPWidgetSumDemoTests.framework */; };
+		FD362D122664BCAA00606B42 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD362D112664BCA900606B42 /* icon@2x.png */; };
+		FD3A507C217815A500E17385 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3A507B217815A500E17385 /* AppDelegate.m */; };
+		FD3A507F217815A500E17385 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3A507E217815A500E17385 /* ViewController.m */; };
+		FD3A5082217815A500E17385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3A5080217815A500E17385 /* Main.storyboard */; };
+		FD3A5084217815A700E17385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3A5083217815A700E17385 /* Assets.xcassets */; };
+		FD3A5087217815A700E17385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3A5085217815A700E17385 /* LaunchScreen.storyboard */; };
+		FD3A508A217815A700E17385 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3A5089217815A700E17385 /* main.m */; };
+		FD3A5094217815A700E17385 /* DPWidgetSumDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3A5093217815A700E17385 /* DPWidgetSumDemoTests.m */; };
+		FD3A509F217815A700E17385 /* DPWidgetSumDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3A509E217815A700E17385 /* DPWidgetSumDemoUITests.m */; };
+		FD3A50B1217816F100E17385 /* Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3A50AE217816F100E17385 /* Launch.png */; };
+		FD5FF8052672008800766FA3 /* DPSharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5FF8042672008800766FA3 /* DPSharedManager.m */; };
+		FD7CF992268D9610008CC165 /* DPCustomBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7CF98E268D9610008CC165 /* DPCustomBanner.m */; };
+		FDDDEF71266DABDE0041D66C /* psc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FDDDEF70266DABDE0041D66C /* psc.jpeg */; };
+		FDFC1E032670956800804990 /* DPTimeAlertPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DAC2670956800804990 /* DPTimeAlertPickerView.m */; };
+		FDFC1E042670956800804990 /* DPTabMenuBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DAF2670956800804990 /* DPTabMenuBarView.m */; };
+		FDFC1E052670956800804990 /* DPTabMenuBarContent.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DB12670956800804990 /* DPTabMenuBarContent.m */; };
+		FDFC1E062670956800804990 /* DPTabMenuBarAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DB22670956800804990 /* DPTabMenuBarAttribute.m */; };
+		FDFC1E072670956800804990 /* DPTabMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DB42670956800804990 /* DPTabMenuButton.m */; };
+		FDFC1E082670956800804990 /* NSDate+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DBD2670956800804990 /* NSDate+DPCategory.m */; };
+		FDFC1E092670956800804990 /* UIColor+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DC22670956800804990 /* UIColor+DPCategory.m */; };
+		FDFC1E0A2670956800804990 /* UIView+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DC32670956800804990 /* UIView+DPCategory.m */; };
+		FDFC1E0B2670956800804990 /* NSData+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DC52670956800804990 /* NSData+DPCategory.m */; };
+		FDFC1E0C2670956800804990 /* UIImage+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DC62670956800804990 /* UIImage+DPCategory.m */; };
+		FDFC1E0D2670956800804990 /* NSString+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DC72670956800804990 /* NSString+DPCategory.m */; };
+		FDFC1E0E2670956800804990 /* NSArray+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DC92670956800804990 /* NSArray+DPCategory.m */; };
+		FDFC1E0F2670956800804990 /* UIViewController+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DCA2670956800804990 /* UIViewController+DPCategory.m */; };
+		FDFC1E102670956800804990 /* NSObject+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DCC2670956800804990 /* NSObject+DPCategory.m */; };
+		FDFC1E112670956800804990 /* UIApplication+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DCF2670956800804990 /* UIApplication+DPCategory.m */; };
+		FDFC1E122670956800804990 /* UIButton+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DD02670956800804990 /* UIButton+DPCategory.m */; };
+		FDFC1E132670956800804990 /* UIFont+DPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DD12670956800804990 /* UIFont+DPCategory.m */; };
+		FDFC1E142670956800804990 /* DPDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DD32670956800804990 /* DPDefaultView.m */; };
+		FDFC1E152670956800804990 /* DPResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDFC1DD62670956800804990 /* DPResources.bundle */; };
+		FDFC1E162670956800804990 /* DPTextInputTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DD92670956800804990 /* DPTextInputTool.m */; };
+		FDFC1E172670956800804990 /* DPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DDA2670956800804990 /* DPTextField.m */; };
+		FDFC1E182670956800804990 /* DPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DDB2670956800804990 /* DPTextView.m */; };
+		FDFC1E192670956800804990 /* DPBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DDD2670956800804990 /* DPBaseTextField.m */; };
+		FDFC1E1A2670956800804990 /* DPBaseTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DDF2670956800804990 /* DPBaseTextView.m */; };
+		FDFC1E1B2670956800804990 /* DPAddressAlertPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DE32670956800804990 /* DPAddressAlertPickerView.m */; };
+		FDFC1E1C2670956800804990 /* DPAddressPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DE62670956800804990 /* DPAddressPickerModel.m */; };
+		FDFC1E1D2670956800804990 /* CustomImageTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DE92670956800804990 /* CustomImageTextButton.m */; };
+		FDFC1E1E2670956800804990 /* DPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DEA2670956800804990 /* DPButton.m */; };
+		FDFC1E1F2670956800804990 /* DPImagePickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DEE2670956800804990 /* DPImagePickerTool.m */; };
+		FDFC1E202670956800804990 /* DPImagePickerAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DF12670956800804990 /* DPImagePickerAlertView.m */; };
+		FDFC1E212670956800804990 /* DPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DF32670956800804990 /* DPTool.m */; };
+		FDFC1E222670956800804990 /* DPFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DF62670956800804990 /* DPFunctions.m */; };
+		FDFC1E232670956800804990 /* DPDownMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DFC2670956800804990 /* DPDownMenuView.m */; };
+		FDFC1E242670956800804990 /* DPPermissionsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1DFE2670956800804990 /* DPPermissionsTool.m */; };
+		FDFC1E252670956800804990 /* DPMessageAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1E022670956800804990 /* DPMessageAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD3A5090217815A700E17385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3A506F217815A500E17385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3A5076217815A500E17385;
+			remoteInfo = DPWidgetSumDemo;
+		};
+		FD3A509B217815A700E17385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3A506F217815A500E17385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3A5076217815A500E17385;
+			remoteInfo = DPWidgetSumDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ADB8A72EE577781187B023F /* Pods-DPWidgetSumDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPWidgetSumDemo.release.xcconfig"; path = "Target Support Files/Pods-DPWidgetSumDemo/Pods-DPWidgetSumDemo.release.xcconfig"; sourceTree = "<group>"; };
+		494431FAB48C27B2A24976D3 /* Pods-DPWidgetSumDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPWidgetSumDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-DPWidgetSumDemoTests/Pods-DPWidgetSumDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		617C0ED7FDC67D52C94362D7 /* Pods_DPWidgetSumDemo_DPWidgetSumDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPWidgetSumDemo_DPWidgetSumDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88663B71A7350B7F18633F2C /* Pods-DPWidgetSumDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPWidgetSumDemoTests.release.xcconfig"; path = "Target Support Files/Pods-DPWidgetSumDemoTests/Pods-DPWidgetSumDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		92AF49233AB607CAD22961CD /* Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests/Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C322CC253AF7D4D448122DDB /* Pods_DPWidgetSumDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPWidgetSumDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE50D6B728976BC1F130E54A /* Pods_DPWidgetSumDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPWidgetSumDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF97B1238E19F1CB14B73966 /* Pods-DPWidgetSumDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPWidgetSumDemo.debug.xcconfig"; path = "Target Support Files/Pods-DPWidgetSumDemo/Pods-DPWidgetSumDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D824A3AC5396E1F7600C73A8 /* Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests/Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD362D112664BCA900606B42 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		FD362D6B2664BCCA00606B42 /* DPWidgetSumDemo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPWidgetSumDemo.pch; sourceTree = "<group>"; };
+		FD3A5077217815A500E17385 /* DPWidgetSumDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPWidgetSumDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3A507A217815A500E17385 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD3A507B217815A500E17385 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD3A507D217815A500E17385 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD3A507E217815A500E17385 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD3A5081217815A500E17385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD3A5083217815A700E17385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD3A5086217815A700E17385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD3A5088217815A700E17385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3A5089217815A700E17385 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD3A508F217815A700E17385 /* DPWidgetSumDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPWidgetSumDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3A5093217815A700E17385 /* DPWidgetSumDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPWidgetSumDemoTests.m; sourceTree = "<group>"; };
+		FD3A5095217815A700E17385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3A509A217815A700E17385 /* DPWidgetSumDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPWidgetSumDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3A509E217815A700E17385 /* DPWidgetSumDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPWidgetSumDemoUITests.m; sourceTree = "<group>"; };
+		FD3A50A0217815A700E17385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3A50AE217816F100E17385 /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
+		FD5FF8032672008800766FA3 /* DPSharedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSharedManager.h; sourceTree = "<group>"; };
+		FD5FF8042672008800766FA3 /* DPSharedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSharedManager.m; sourceTree = "<group>"; };
+		FD7CF98E268D9610008CC165 /* DPCustomBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCustomBanner.m; sourceTree = "<group>"; };
+		FD7CF990268D9610008CC165 /* DPCustomBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCustomBanner.h; sourceTree = "<group>"; };
+		FDDDEF70266DABDE0041D66C /* psc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = psc.jpeg; sourceTree = "<group>"; };
+		FDFC1DAC2670956800804990 /* DPTimeAlertPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTimeAlertPickerView.m; sourceTree = "<group>"; };
+		FDFC1DAD2670956800804990 /* DPTimeAlertPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTimeAlertPickerView.h; sourceTree = "<group>"; };
+		FDFC1DAF2670956800804990 /* DPTabMenuBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTabMenuBarView.m; sourceTree = "<group>"; };
+		FDFC1DB02670956800804990 /* DPTabMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTabMenuButton.h; sourceTree = "<group>"; };
+		FDFC1DB12670956800804990 /* DPTabMenuBarContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTabMenuBarContent.m; sourceTree = "<group>"; };
+		FDFC1DB22670956800804990 /* DPTabMenuBarAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTabMenuBarAttribute.m; sourceTree = "<group>"; };
+		FDFC1DB32670956800804990 /* DPTabMenuBarContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTabMenuBarContent.h; sourceTree = "<group>"; };
+		FDFC1DB42670956800804990 /* DPTabMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTabMenuButton.m; sourceTree = "<group>"; };
+		FDFC1DB52670956800804990 /* DPTabMenuBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTabMenuBarView.h; sourceTree = "<group>"; };
+		FDFC1DB62670956800804990 /* DPTabMenuBarAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTabMenuBarAttribute.h; sourceTree = "<group>"; };
+		FDFC1DB72670956800804990 /* DPWidgetSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPWidgetSum.h; sourceTree = "<group>"; };
+		FDFC1DB92670956800804990 /* NSData+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DBA2670956800804990 /* NSArray+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DBB2670956800804990 /* NSString+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DBC2670956800804990 /* UIImage+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DBD2670956800804990 /* NSDate+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DBE2670956800804990 /* UIViewController+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DBF2670956800804990 /* UIButton+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DC02670956800804990 /* UIFont+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DC12670956800804990 /* UIApplication+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DC22670956800804990 /* UIColor+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DC32670956800804990 /* UIView+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DC42670956800804990 /* NSObject+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DC52670956800804990 /* NSData+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DC62670956800804990 /* UIImage+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DC72670956800804990 /* NSString+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DC82670956800804990 /* DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCategory.h; sourceTree = "<group>"; };
+		FDFC1DC92670956800804990 /* NSArray+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DCA2670956800804990 /* UIViewController+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DCB2670956800804990 /* NSDate+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DCC2670956800804990 /* NSObject+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DCD2670956800804990 /* UIView+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DCE2670956800804990 /* UIColor+DPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DPCategory.h"; sourceTree = "<group>"; };
+		FDFC1DCF2670956800804990 /* UIApplication+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DD02670956800804990 /* UIButton+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DD12670956800804990 /* UIFont+DPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DPCategory.m"; sourceTree = "<group>"; };
+		FDFC1DD32670956800804990 /* DPDefaultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPDefaultView.m; sourceTree = "<group>"; };
+		FDFC1DD42670956800804990 /* DPDefaultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPDefaultView.h; sourceTree = "<group>"; };
+		FDFC1DD62670956800804990 /* DPResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DPResources.bundle; sourceTree = "<group>"; };
+		FDFC1DD82670956800804990 /* DPBaseTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBaseTextField.h; sourceTree = "<group>"; };
+		FDFC1DD92670956800804990 /* DPTextInputTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTextInputTool.m; sourceTree = "<group>"; };
+		FDFC1DDA2670956800804990 /* DPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTextField.m; sourceTree = "<group>"; };
+		FDFC1DDB2670956800804990 /* DPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTextView.m; sourceTree = "<group>"; };
+		FDFC1DDC2670956800804990 /* DPBaseTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBaseTextView.h; sourceTree = "<group>"; };
+		FDFC1DDD2670956800804990 /* DPBaseTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBaseTextField.m; sourceTree = "<group>"; };
+		FDFC1DDE2670956800804990 /* DPTextInputTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTextInputTool.h; sourceTree = "<group>"; };
+		FDFC1DDF2670956800804990 /* DPBaseTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBaseTextView.m; sourceTree = "<group>"; };
+		FDFC1DE02670956800804990 /* DPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTextView.h; sourceTree = "<group>"; };
+		FDFC1DE12670956800804990 /* DPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTextField.h; sourceTree = "<group>"; };
+		FDFC1DE32670956800804990 /* DPAddressAlertPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAddressAlertPickerView.m; sourceTree = "<group>"; };
+		FDFC1DE42670956800804990 /* DPAddressAlertPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAddressAlertPickerView.h; sourceTree = "<group>"; };
+		FDFC1DE62670956800804990 /* DPAddressPickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAddressPickerModel.m; sourceTree = "<group>"; };
+		FDFC1DE72670956800804990 /* DPAddressPickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAddressPickerModel.h; sourceTree = "<group>"; };
+		FDFC1DE92670956800804990 /* CustomImageTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageTextButton.m; sourceTree = "<group>"; };
+		FDFC1DEA2670956800804990 /* DPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPButton.m; sourceTree = "<group>"; };
+		FDFC1DEB2670956800804990 /* CustomImageTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageTextButton.h; sourceTree = "<group>"; };
+		FDFC1DEC2670956800804990 /* DPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPButton.h; sourceTree = "<group>"; };
+		FDFC1DEE2670956800804990 /* DPImagePickerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImagePickerTool.m; sourceTree = "<group>"; };
+		FDFC1DEF2670956800804990 /* DPImagePickerAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImagePickerAlertView.h; sourceTree = "<group>"; };
+		FDFC1DF02670956800804990 /* DPImagePickerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImagePickerTool.h; sourceTree = "<group>"; };
+		FDFC1DF12670956800804990 /* DPImagePickerAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImagePickerAlertView.m; sourceTree = "<group>"; };
+		FDFC1DF32670956800804990 /* DPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTool.m; sourceTree = "<group>"; };
+		FDFC1DF42670956800804990 /* DPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTool.h; sourceTree = "<group>"; };
+		FDFC1DF62670956800804990 /* DPFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFunctions.m; sourceTree = "<group>"; };
+		FDFC1DF72670956800804990 /* DPFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFunctions.h; sourceTree = "<group>"; };
+		FDFC1DF92670956800804990 /* DPNormalMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPNormalMacro.h; sourceTree = "<group>"; };
+		FDFC1DFB2670956800804990 /* DPDownMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPDownMenuView.h; sourceTree = "<group>"; };
+		FDFC1DFC2670956800804990 /* DPDownMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPDownMenuView.m; sourceTree = "<group>"; };
+		FDFC1DFE2670956800804990 /* DPPermissionsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPermissionsTool.m; sourceTree = "<group>"; };
+		FDFC1DFF2670956800804990 /* DPPermissionsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPermissionsTool.h; sourceTree = "<group>"; };
+		FDFC1E012670956800804990 /* DPMessageAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMessageAlertView.h; sourceTree = "<group>"; };
+		FDFC1E022670956800804990 /* DPMessageAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMessageAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD3A5074217815A500E17385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635B5CE4DE5A7EC28FAAD05 /* Pods_DPWidgetSumDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3A508C217815A700E17385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D716F61720E6E9C773D72D7F /* Pods_DPWidgetSumDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3A5097217815A700E17385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFAC36B97138624FBA00E84 /* Pods_DPWidgetSumDemo_DPWidgetSumDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268D4B28E316FFF9E9D31574 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF97B1238E19F1CB14B73966 /* Pods-DPWidgetSumDemo.debug.xcconfig */,
+				0ADB8A72EE577781187B023F /* Pods-DPWidgetSumDemo.release.xcconfig */,
+				92AF49233AB607CAD22961CD /* Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests.debug.xcconfig */,
+				D824A3AC5396E1F7600C73A8 /* Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests.release.xcconfig */,
+				494431FAB48C27B2A24976D3 /* Pods-DPWidgetSumDemoTests.debug.xcconfig */,
+				88663B71A7350B7F18633F2C /* Pods-DPWidgetSumDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD26E0BB33C39A0DEDF11A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C322CC253AF7D4D448122DDB /* Pods_DPWidgetSumDemo.framework */,
+				617C0ED7FDC67D52C94362D7 /* Pods_DPWidgetSumDemo_DPWidgetSumDemoUITests.framework */,
+				CE50D6B728976BC1F130E54A /* Pods_DPWidgetSumDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD362D6D2664BCE100606B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A5080217815A500E17385 /* Main.storyboard */,
+				FD362D6B2664BCCA00606B42 /* DPWidgetSumDemo.pch */,
+				FD3A5083217815A700E17385 /* Assets.xcassets */,
+				FD3A5085217815A700E17385 /* LaunchScreen.storyboard */,
+				FD3A5088217815A700E17385 /* Info.plist */,
+				FD3A5089217815A700E17385 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD3A506E217815A500E17385 = {
+			isa = PBXGroup;
+			children = (
+				FD3A5079217815A500E17385 /* DPWidgetSumDemo */,
+				FD3A5092217815A700E17385 /* DPWidgetSumDemoTests */,
+				FD3A509D217815A700E17385 /* DPWidgetSumDemoUITests */,
+				FD3A5078217815A500E17385 /* Products */,
+				268D4B28E316FFF9E9D31574 /* Pods */,
+				AD26E0BB33C39A0DEDF11A96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD3A5078217815A500E17385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A5077217815A500E17385 /* DPWidgetSumDemo.app */,
+				FD3A508F217815A700E17385 /* DPWidgetSumDemoTests.xctest */,
+				FD3A509A217815A700E17385 /* DPWidgetSumDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD3A5079217815A500E17385 /* DPWidgetSumDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DAA2670956800804990 /* DPWidgetSum_SDK */,
+				FD3A507A217815A500E17385 /* AppDelegate.h */,
+				FD3A507B217815A500E17385 /* AppDelegate.m */,
+				FD3A507D217815A500E17385 /* ViewController.h */,
+				FD3A507E217815A500E17385 /* ViewController.m */,
+				FD3A50AC217816F100E17385 /* Resources */,
+				FD362D6D2664BCE100606B42 /* Supporting Files */,
+			);
+			path = DPWidgetSumDemo;
+			sourceTree = "<group>";
+		};
+		FD3A5092217815A700E17385 /* DPWidgetSumDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A5093217815A700E17385 /* DPWidgetSumDemoTests.m */,
+				FD3A5095217815A700E17385 /* Info.plist */,
+			);
+			path = DPWidgetSumDemoTests;
+			sourceTree = "<group>";
+		};
+		FD3A509D217815A700E17385 /* DPWidgetSumDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A509E217815A700E17385 /* DPWidgetSumDemoUITests.m */,
+				FD3A50A0217815A700E17385 /* Info.plist */,
+			);
+			path = DPWidgetSumDemoUITests;
+			sourceTree = "<group>";
+		};
+		FD3A50AC217816F100E17385 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDEF70266DABDE0041D66C /* psc.jpeg */,
+				FD362D112664BCA900606B42 /* icon@2x.png */,
+				FD3A50AE217816F100E17385 /* Launch.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FD5FF8022672000300766FA3 /* DPSharedManager */ = {
+			isa = PBXGroup;
+			children = (
+				FD5FF8032672008800766FA3 /* DPSharedManager.h */,
+				FD5FF8042672008800766FA3 /* DPSharedManager.m */,
+			);
+			path = DPSharedManager;
+			sourceTree = "<group>";
+		};
+		FD7CF98D268D9610008CC165 /* DPCustomBanner */ = {
+			isa = PBXGroup;
+			children = (
+				FD7CF990268D9610008CC165 /* DPCustomBanner.h */,
+				FD7CF98E268D9610008CC165 /* DPCustomBanner.m */,
+			);
+			path = DPCustomBanner;
+			sourceTree = "<group>";
+		};
+		FDFC1DAA2670956800804990 /* DPWidgetSum_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DB72670956800804990 /* DPWidgetSum.h */,
+				FDFC1DD62670956800804990 /* DPResources.bundle */,
+				FD7CF98D268D9610008CC165 /* DPCustomBanner */,
+				FD5FF8022672000300766FA3 /* DPSharedManager */,
+				FDFC1DAB2670956800804990 /* DPAlertPicker */,
+				FDFC1DAE2670956800804990 /* DPTabMenuBar */,
+				FDFC1DB82670956800804990 /* DPCategory */,
+				FDFC1DD22670956800804990 /* DPDefaultView */,
+				FDFC1DD72670956800804990 /* DPInputBox */,
+				FDFC1DE22670956800804990 /* DPAddressPicker */,
+				FDFC1DE82670956800804990 /* DPButton */,
+				FDFC1DED2670956800804990 /* DPImagePickerTool */,
+				FDFC1DF22670956800804990 /* DPUtils */,
+				FDFC1DF52670956800804990 /* DPFunctions */,
+				FDFC1DF82670956800804990 /* DPMacros */,
+				FDFC1DFA2670956800804990 /* DPDownMenu */,
+				FDFC1DFD2670956800804990 /* DPPermissionsTool */,
+				FDFC1E002670956800804990 /* DPMessageAlert */,
+			);
+			name = DPWidgetSum_SDK;
+			path = ../../DPWidgetSum_SDK;
+			sourceTree = "<group>";
+		};
+		FDFC1DAB2670956800804990 /* DPAlertPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DAC2670956800804990 /* DPTimeAlertPickerView.m */,
+				FDFC1DAD2670956800804990 /* DPTimeAlertPickerView.h */,
+			);
+			path = DPAlertPicker;
+			sourceTree = "<group>";
+		};
+		FDFC1DAE2670956800804990 /* DPTabMenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DAF2670956800804990 /* DPTabMenuBarView.m */,
+				FDFC1DB02670956800804990 /* DPTabMenuButton.h */,
+				FDFC1DB12670956800804990 /* DPTabMenuBarContent.m */,
+				FDFC1DB22670956800804990 /* DPTabMenuBarAttribute.m */,
+				FDFC1DB32670956800804990 /* DPTabMenuBarContent.h */,
+				FDFC1DB42670956800804990 /* DPTabMenuButton.m */,
+				FDFC1DB52670956800804990 /* DPTabMenuBarView.h */,
+				FDFC1DB62670956800804990 /* DPTabMenuBarAttribute.h */,
+			);
+			path = DPTabMenuBar;
+			sourceTree = "<group>";
+		};
+		FDFC1DB82670956800804990 /* DPCategory */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DB92670956800804990 /* NSData+DPCategory.h */,
+				FDFC1DBA2670956800804990 /* NSArray+DPCategory.h */,
+				FDFC1DBB2670956800804990 /* NSString+DPCategory.h */,
+				FDFC1DBC2670956800804990 /* UIImage+DPCategory.h */,
+				FDFC1DBD2670956800804990 /* NSDate+DPCategory.m */,
+				FDFC1DBE2670956800804990 /* UIViewController+DPCategory.h */,
+				FDFC1DBF2670956800804990 /* UIButton+DPCategory.h */,
+				FDFC1DC02670956800804990 /* UIFont+DPCategory.h */,
+				FDFC1DC12670956800804990 /* UIApplication+DPCategory.h */,
+				FDFC1DC22670956800804990 /* UIColor+DPCategory.m */,
+				FDFC1DC32670956800804990 /* UIView+DPCategory.m */,
+				FDFC1DC42670956800804990 /* NSObject+DPCategory.h */,
+				FDFC1DC52670956800804990 /* NSData+DPCategory.m */,
+				FDFC1DC62670956800804990 /* UIImage+DPCategory.m */,
+				FDFC1DC72670956800804990 /* NSString+DPCategory.m */,
+				FDFC1DC82670956800804990 /* DPCategory.h */,
+				FDFC1DC92670956800804990 /* NSArray+DPCategory.m */,
+				FDFC1DCA2670956800804990 /* UIViewController+DPCategory.m */,
+				FDFC1DCB2670956800804990 /* NSDate+DPCategory.h */,
+				FDFC1DCC2670956800804990 /* NSObject+DPCategory.m */,
+				FDFC1DCD2670956800804990 /* UIView+DPCategory.h */,
+				FDFC1DCE2670956800804990 /* UIColor+DPCategory.h */,
+				FDFC1DCF2670956800804990 /* UIApplication+DPCategory.m */,
+				FDFC1DD02670956800804990 /* UIButton+DPCategory.m */,
+				FDFC1DD12670956800804990 /* UIFont+DPCategory.m */,
+			);
+			path = DPCategory;
+			sourceTree = "<group>";
+		};
+		FDFC1DD22670956800804990 /* DPDefaultView */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DD32670956800804990 /* DPDefaultView.m */,
+				FDFC1DD42670956800804990 /* DPDefaultView.h */,
+			);
+			path = DPDefaultView;
+			sourceTree = "<group>";
+		};
+		FDFC1DD72670956800804990 /* DPInputBox */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DD82670956800804990 /* DPBaseTextField.h */,
+				FDFC1DD92670956800804990 /* DPTextInputTool.m */,
+				FDFC1DDA2670956800804990 /* DPTextField.m */,
+				FDFC1DDB2670956800804990 /* DPTextView.m */,
+				FDFC1DDC2670956800804990 /* DPBaseTextView.h */,
+				FDFC1DDD2670956800804990 /* DPBaseTextField.m */,
+				FDFC1DDE2670956800804990 /* DPTextInputTool.h */,
+				FDFC1DDF2670956800804990 /* DPBaseTextView.m */,
+				FDFC1DE02670956800804990 /* DPTextView.h */,
+				FDFC1DE12670956800804990 /* DPTextField.h */,
+			);
+			path = DPInputBox;
+			sourceTree = "<group>";
+		};
+		FDFC1DE22670956800804990 /* DPAddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DE32670956800804990 /* DPAddressAlertPickerView.m */,
+				FDFC1DE42670956800804990 /* DPAddressAlertPickerView.h */,
+				FDFC1DE52670956800804990 /* model */,
+			);
+			path = DPAddressPicker;
+			sourceTree = "<group>";
+		};
+		FDFC1DE52670956800804990 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DE62670956800804990 /* DPAddressPickerModel.m */,
+				FDFC1DE72670956800804990 /* DPAddressPickerModel.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FDFC1DE82670956800804990 /* DPButton */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DEB2670956800804990 /* CustomImageTextButton.h */,
+				FDFC1DE92670956800804990 /* CustomImageTextButton.m */,
+				FDFC1DEC2670956800804990 /* DPButton.h */,
+				FDFC1DEA2670956800804990 /* DPButton.m */,
+			);
+			path = DPButton;
+			sourceTree = "<group>";
+		};
+		FDFC1DED2670956800804990 /* DPImagePickerTool */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DEE2670956800804990 /* DPImagePickerTool.m */,
+				FDFC1DEF2670956800804990 /* DPImagePickerAlertView.h */,
+				FDFC1DF02670956800804990 /* DPImagePickerTool.h */,
+				FDFC1DF12670956800804990 /* DPImagePickerAlertView.m */,
+			);
+			path = DPImagePickerTool;
+			sourceTree = "<group>";
+		};
+		FDFC1DF22670956800804990 /* DPUtils */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DF32670956800804990 /* DPTool.m */,
+				FDFC1DF42670956800804990 /* DPTool.h */,
+			);
+			path = DPUtils;
+			sourceTree = "<group>";
+		};
+		FDFC1DF52670956800804990 /* DPFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DF62670956800804990 /* DPFunctions.m */,
+				FDFC1DF72670956800804990 /* DPFunctions.h */,
+			);
+			path = DPFunctions;
+			sourceTree = "<group>";
+		};
+		FDFC1DF82670956800804990 /* DPMacros */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DF92670956800804990 /* DPNormalMacro.h */,
+			);
+			path = DPMacros;
+			sourceTree = "<group>";
+		};
+		FDFC1DFA2670956800804990 /* DPDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DFB2670956800804990 /* DPDownMenuView.h */,
+				FDFC1DFC2670956800804990 /* DPDownMenuView.m */,
+			);
+			path = DPDownMenu;
+			sourceTree = "<group>";
+		};
+		FDFC1DFD2670956800804990 /* DPPermissionsTool */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1DFE2670956800804990 /* DPPermissionsTool.m */,
+				FDFC1DFF2670956800804990 /* DPPermissionsTool.h */,
+			);
+			path = DPPermissionsTool;
+			sourceTree = "<group>";
+		};
+		FDFC1E002670956800804990 /* DPMessageAlert */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC1E012670956800804990 /* DPMessageAlertView.h */,
+				FDFC1E022670956800804990 /* DPMessageAlertView.m */,
+			);
+			path = DPMessageAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD3A5076217815A500E17385 /* DPWidgetSumDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3A50A3217815A700E17385 /* Build configuration list for PBXNativeTarget "DPWidgetSumDemo" */;
+			buildPhases = (
+				11359081DAD9CB811B83FD81 /* [CP] Check Pods Manifest.lock */,
+				FD3A5073217815A500E17385 /* Sources */,
+				FD3A5074217815A500E17385 /* Frameworks */,
+				FD3A5075217815A500E17385 /* Resources */,
+				49B9B2A0F50A1BE901FC87A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPWidgetSumDemo;
+			productName = DPWidgetSumDemo;
+			productReference = FD3A5077217815A500E17385 /* DPWidgetSumDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD3A508E217815A700E17385 /* DPWidgetSumDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3A50A6217815A700E17385 /* Build configuration list for PBXNativeTarget "DPWidgetSumDemoTests" */;
+			buildPhases = (
+				3FF205FD08DB9DBD2969BA90 /* [CP] Check Pods Manifest.lock */,
+				FD3A508B217815A700E17385 /* Sources */,
+				FD3A508C217815A700E17385 /* Frameworks */,
+				FD3A508D217815A700E17385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD3A5091217815A700E17385 /* PBXTargetDependency */,
+			);
+			name = DPWidgetSumDemoTests;
+			productName = DPWidgetSumDemoTests;
+			productReference = FD3A508F217815A700E17385 /* DPWidgetSumDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD3A5099217815A700E17385 /* DPWidgetSumDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3A50A9217815A700E17385 /* Build configuration list for PBXNativeTarget "DPWidgetSumDemoUITests" */;
+			buildPhases = (
+				00A3C88BEEC716104C48645F /* [CP] Check Pods Manifest.lock */,
+				FD3A5096217815A700E17385 /* Sources */,
+				FD3A5097217815A700E17385 /* Frameworks */,
+				FD3A5098217815A700E17385 /* Resources */,
+				0C1F34205D5EF5149BA7542B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD3A509C217815A700E17385 /* PBXTargetDependency */,
+			);
+			name = DPWidgetSumDemoUITests;
+			productName = DPWidgetSumDemoUITests;
+			productReference = FD3A509A217815A700E17385 /* DPWidgetSumDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD3A506F217815A500E17385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "yupeng xia";
+				TargetAttributes = {
+					FD3A5076217815A500E17385 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FD3A508E217815A700E17385 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FD3A5076217815A500E17385;
+					};
+					FD3A5099217815A700E17385 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FD3A5076217815A500E17385;
+					};
+				};
+			};
+			buildConfigurationList = FD3A5072217815A500E17385 /* Build configuration list for PBXProject "DPWidgetSumDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD3A506E217815A500E17385;
+			productRefGroup = FD3A5078217815A500E17385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD3A5076217815A500E17385 /* DPWidgetSumDemo */,
+				FD3A508E217815A700E17385 /* DPWidgetSumDemoTests */,
+				FD3A5099217815A700E17385 /* DPWidgetSumDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD3A5075217815A500E17385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3A5087217815A700E17385 /* LaunchScreen.storyboard in Resources */,
+				FD3A5084217815A700E17385 /* Assets.xcassets in Resources */,
+				FD3A5082217815A500E17385 /* Main.storyboard in Resources */,
+				FD3A50B1217816F100E17385 /* Launch.png in Resources */,
+				FD362D122664BCAA00606B42 /* icon@2x.png in Resources */,
+				FDDDEF71266DABDE0041D66C /* psc.jpeg in Resources */,
+				FDFC1E152670956800804990 /* DPResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3A508D217815A700E17385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3A5098217815A700E17385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A3C88BEEC716104C48645F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C1F34205D5EF5149BA7542B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests/Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests/Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests/Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11359081DAD9CB811B83FD81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DPWidgetSumDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FF205FD08DB9DBD2969BA90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DPWidgetSumDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49B9B2A0F50A1BE901FC87A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DPWidgetSumDemo/Pods-DPWidgetSumDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DPWidgetSumDemo/Pods-DPWidgetSumDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DPWidgetSumDemo/Pods-DPWidgetSumDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD3A5073217815A500E17385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFC1E192670956800804990 /* DPBaseTextField.m in Sources */,
+				FDFC1E0A2670956800804990 /* UIView+DPCategory.m in Sources */,
+				FDFC1E1F2670956800804990 /* DPImagePickerTool.m in Sources */,
+				FDFC1E0D2670956800804990 /* NSString+DPCategory.m in Sources */,
+				FDFC1E0F2670956800804990 /* UIViewController+DPCategory.m in Sources */,
+				FDFC1E072670956800804990 /* DPTabMenuButton.m in Sources */,
+				FDFC1E132670956800804990 /* UIFont+DPCategory.m in Sources */,
+				FDFC1E1A2670956800804990 /* DPBaseTextView.m in Sources */,
+				FDFC1E112670956800804990 /* UIApplication+DPCategory.m in Sources */,
+				FDFC1E222670956800804990 /* DPFunctions.m in Sources */,
+				FD7CF992268D9610008CC165 /* DPCustomBanner.m in Sources */,
+				FDFC1E062670956800804990 /* DPTabMenuBarAttribute.m in Sources */,
+				FDFC1E252670956800804990 /* DPMessageAlertView.m in Sources */,
+				FDFC1E1D2670956800804990 /* CustomImageTextButton.m in Sources */,
+				FDFC1E162670956800804990 /* DPTextInputTool.m in Sources */,
+				FD5FF8052672008800766FA3 /* DPSharedManager.m in Sources */,
+				FDFC1E042670956800804990 /* DPTabMenuBarView.m in Sources */,
+				FDFC1E0E2670956800804990 /* NSArray+DPCategory.m in Sources */,
+				FDFC1E092670956800804990 /* UIColor+DPCategory.m in Sources */,
+				FDFC1E182670956800804990 /* DPTextView.m in Sources */,
+				FDFC1E082670956800804990 /* NSDate+DPCategory.m in Sources */,
+				FDFC1E0B2670956800804990 /* NSData+DPCategory.m in Sources */,
+				FDFC1E0C2670956800804990 /* UIImage+DPCategory.m in Sources */,
+				FDFC1E142670956800804990 /* DPDefaultView.m in Sources */,
+				FDFC1E1C2670956800804990 /* DPAddressPickerModel.m in Sources */,
+				FD3A507F217815A500E17385 /* ViewController.m in Sources */,
+				FDFC1E052670956800804990 /* DPTabMenuBarContent.m in Sources */,
+				FDFC1E232670956800804990 /* DPDownMenuView.m in Sources */,
+				FDFC1E212670956800804990 /* DPTool.m in Sources */,
+				FDFC1E172670956800804990 /* DPTextField.m in Sources */,
+				FDFC1E1E2670956800804990 /* DPButton.m in Sources */,
+				FDFC1E242670956800804990 /* DPPermissionsTool.m in Sources */,
+				FDFC1E102670956800804990 /* NSObject+DPCategory.m in Sources */,
+				FD3A508A217815A700E17385 /* main.m in Sources */,
+				FDFC1E202670956800804990 /* DPImagePickerAlertView.m in Sources */,
+				FDFC1E1B2670956800804990 /* DPAddressAlertPickerView.m in Sources */,
+				FDFC1E122670956800804990 /* UIButton+DPCategory.m in Sources */,
+				FDFC1E032670956800804990 /* DPTimeAlertPickerView.m in Sources */,
+				FD3A507C217815A500E17385 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3A508B217815A700E17385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3A5094217815A700E17385 /* DPWidgetSumDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3A5096217815A700E17385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3A509F217815A700E17385 /* DPWidgetSumDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD3A5091217815A700E17385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD3A5076217815A500E17385 /* DPWidgetSumDemo */;
+			targetProxy = FD3A5090217815A700E17385 /* PBXContainerItemProxy */;
+		};
+		FD3A509C217815A700E17385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD3A5076217815A500E17385 /* DPWidgetSumDemo */;
+			targetProxy = FD3A509B217815A700E17385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD3A5080217815A500E17385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3A5081217815A500E17385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD3A5085217815A700E17385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3A5086217815A700E17385 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD3A50A1217815A700E17385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD3A50A2217815A700E17385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD3A50A4217815A700E17385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF97B1238E19F1CB14B73966 /* Pods-DPWidgetSumDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99C8L96EFT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DPWidgetSumDemo/DPWidgetSumDemo.pch;
+				INFOPLIST_FILE = DPWidgetSumDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DPWidgetSumDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		FD3A50A5217815A700E17385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADB8A72EE577781187B023F /* Pods-DPWidgetSumDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99C8L96EFT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DPWidgetSumDemo/DPWidgetSumDemo.pch;
+				INFOPLIST_FILE = DPWidgetSumDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DPWidgetSumDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+		FD3A50A7217815A700E17385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494431FAB48C27B2A24976D3 /* Pods-DPWidgetSumDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99C8L96EFT;
+				INFOPLIST_FILE = DPWidgetSumDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DPWidgetSumDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPWidgetSumDemo.app/DPWidgetSumDemo";
+			};
+			name = Debug;
+		};
+		FD3A50A8217815A700E17385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88663B71A7350B7F18633F2C /* Pods-DPWidgetSumDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99C8L96EFT;
+				INFOPLIST_FILE = DPWidgetSumDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DPWidgetSumDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPWidgetSumDemo.app/DPWidgetSumDemo";
+			};
+			name = Release;
+		};
+		FD3A50AA217815A700E17385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92AF49233AB607CAD22961CD /* Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99C8L96EFT;
+				INFOPLIST_FILE = DPWidgetSumDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DPWidgetSumDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DPWidgetSumDemo;
+			};
+			name = Debug;
+		};
+		FD3A50AB217815A700E17385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D824A3AC5396E1F7600C73A8 /* Pods-DPWidgetSumDemo-DPWidgetSumDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99C8L96EFT;
+				INFOPLIST_FILE = DPWidgetSumDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DPWidgetSumDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DPWidgetSumDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD3A5072217815A500E17385 /* Build configuration list for PBXProject "DPWidgetSumDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3A50A1217815A700E17385 /* Debug */,
+				FD3A50A2217815A700E17385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3A50A3217815A700E17385 /* Build configuration list for PBXNativeTarget "DPWidgetSumDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3A50A4217815A700E17385 /* Debug */,
+				FD3A50A5217815A700E17385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3A50A6217815A700E17385 /* Build configuration list for PBXNativeTarget "DPWidgetSumDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3A50A7217815A700E17385 /* Debug */,
+				FD3A50A8217815A700E17385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3A50A9217815A700E17385 /* Build configuration list for PBXNativeTarget "DPWidgetSumDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3A50AA217815A700E17385 /* Debug */,
+				FD3A50AB217815A700E17385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD3A506F217815A500E17385 /* Project object */;
+}
