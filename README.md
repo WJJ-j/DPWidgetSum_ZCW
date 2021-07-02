@@ -15,16 +15,16 @@
 
 ## Getting Started
 - Read this Readme doc
-- Read the [How to use section](https://github.com/xiayuqingfeng/DPWidgetSum#how-to-use)
-- Read the [documentation @ CocoaDocs](https://cocoapods.org/pods/DPWidgetSum)
+- Read the [How to use section](https://github.com/WJJ-j/DPWidgetSum_ZCW#how-to-use)
+- Read the [documentation @ CocoaDocs](https://cocoapods.org/pods/DPWidgetSum_ZCW)
 - Try the example by downloading the project from Github or even easier using CocoaPods try `pod try DPWidgetSum`
-- Get to the [installation steps](https://github.com/rs/DPWidgetSum#installation)
+- Get to the [installation steps](https://github.com/rs/DPWidgetSum_ZCW#installation)
 
 ## Who Uses It
-- Find out [who uses DPWidgetSum](https://github.com/xiayuqingfeng/DPWidgetSum/wiki/Who-Uses-DPWidgetSum) and add your app to the list.
+- Find out [who uses DPWidgetSum](https://github.com/WJJ-j/DPWidgetSum_ZCW/wiki/Who-Uses-DPWidgetSum_ZCW) and add your app to the list.
 
 ## Communication
-- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/DPWidgetSum). (Tag 'DPWidgetSum')
+- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/DPWidgetSum_ZCW). (Tag 'DPWidgetSum')
 - If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/DPWidgetSum).
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
@@ -122,12 +122,12 @@ At this point your workspace should build without error. If you are having probl
 community can help you solve it.
 
 ## Collaborators
-- [PingshengZhao(赵坪生)](https://github.com/PingshengZhao)
+- [YuPengXia(夏玉鹏)](https://github.com/xiayuqingfeng)
 
 ## Licenses
-All source code is licensed under the [MIT License](https://github.com/xiayuqingfeng/DPWidgetSum/blob/master/LICENSE).
+All source code is licensed under the [MIT License](https://github.com/WJJ-j/DPWidgetSum_ZCW/blob/master/LICENSE).
 
 ## Pictures show
 <p align="center" >
-<img src="DP_Gitf_1.gif" title="DPWidgetSum sequence diagram">
+<img src="DP_Gitf_1.gif" title="DPWidgetSum_ZCW sequence diagram">
 </p>
